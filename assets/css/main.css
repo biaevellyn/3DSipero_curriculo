@@ -1,0 +1,51 @@
+/* * { outline: 1px dashed lightcoral;
+}  */
+
+
+:root{
+
+    /* Perfil de Cores */
+    --primary-color: #732634;
+    --secondary-color:#8C2641;
+    --tertiary-color:#D9B4BE;
+    --quaternary-color:#F2CED8;
+    --quinary-color:#FAACC4;
+    --ligth-color: white;
+    --dark-color: black;
+    --grayscale: #f2f2f2;
+
+    /* Tamanhos Padrões */
+    --extra-small-size: 4px;
+    --small-size: 8px;
+    --medium-size: 16px;
+    --large-size: 32px;
+    --extra-large-size: 64px;
+}
+
+.header {
+    background: var(--tertiary-color);
+background: linear-gradient(90deg,var(--tertiary-color) 0%, var(--quaternary-color) 100%);
+}
+
+.header__title {
+    color: var(--dark-color);
+}
+
+.header__social-icons {
+    color: var(--secondary-color);
+}
+
+.skills__column-left {
+    background: var(--tertiary-color);
+}
+
+.skills__title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--dark-color);
+}
+
+.skills__label {
+    font-size: 0.8rem;
+    color: var(--primary-color);
+}
